@@ -51,7 +51,7 @@ left_col.write(dfA)
 #Grafik Negara dengan Produksi Sesuai dengan Pilihan
 right_col.subheader("Total Produksi Pertahun")
 fig, ax = plt.subplots()
-ax.plot(dfA['tahun'], dfA['produksi'],color="green")
+ax.plot(dfA['tahun'], dfA['produksi'],color="blue")
 ax.set_xlabel("Tahun", color="black", fontsize = 14)
 ax.set_ylabel("Jumlah Produksi", color="black", fontsize = 14)
 ax.legend(fontsize = 14)
